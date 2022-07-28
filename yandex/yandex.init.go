@@ -4068,6 +4068,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "count", GoGetter: "Count"},
 			_jsii_.MemberProperty{JsiiProperty: "dependsOn", GoGetter: "DependsOn"},
 			_jsii_.MemberProperty{JsiiProperty: "folderId", GoGetter: "FolderId"},
+			_jsii_.MemberProperty{JsiiProperty: "folderIdInput", GoGetter: "FolderIdInput"},
 			_jsii_.MemberProperty{JsiiProperty: "forEach", GoGetter: "ForEach"},
 			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
 			_jsii_.MemberProperty{JsiiProperty: "friendlyUniqueId", GoGetter: "FriendlyUniqueId"},
@@ -4095,6 +4096,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "putOrigin", GoMethod: "PutOrigin"},
 			_jsii_.MemberMethod{JsiiMethod: "putTimeouts", GoMethod: "PutTimeouts"},
 			_jsii_.MemberProperty{JsiiProperty: "rawOverrides", GoGetter: "RawOverrides"},
+			_jsii_.MemberMethod{JsiiMethod: "resetFolderId", GoMethod: "ResetFolderId"},
 			_jsii_.MemberMethod{JsiiMethod: "resetId", GoMethod: "ResetId"},
 			_jsii_.MemberMethod{JsiiMethod: "resetOverrideLogicalId", GoMethod: "ResetOverrideLogicalId"},
 			_jsii_.MemberMethod{JsiiMethod: "resetTimeouts", GoMethod: "ResetTimeouts"},
@@ -4248,6 +4250,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "createdAt", GoGetter: "CreatedAt"},
 			_jsii_.MemberProperty{JsiiProperty: "dependsOn", GoGetter: "DependsOn"},
 			_jsii_.MemberProperty{JsiiProperty: "folderId", GoGetter: "FolderId"},
+			_jsii_.MemberProperty{JsiiProperty: "folderIdInput", GoGetter: "FolderIdInput"},
 			_jsii_.MemberProperty{JsiiProperty: "forEach", GoGetter: "ForEach"},
 			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
 			_jsii_.MemberProperty{JsiiProperty: "friendlyUniqueId", GoGetter: "FriendlyUniqueId"},
@@ -4282,6 +4285,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "rawOverrides", GoGetter: "RawOverrides"},
 			_jsii_.MemberMethod{JsiiMethod: "resetActive", GoMethod: "ResetActive"},
 			_jsii_.MemberMethod{JsiiMethod: "resetCname", GoMethod: "ResetCname"},
+			_jsii_.MemberMethod{JsiiMethod: "resetFolderId", GoMethod: "ResetFolderId"},
 			_jsii_.MemberMethod{JsiiMethod: "resetId", GoMethod: "ResetId"},
 			_jsii_.MemberMethod{JsiiMethod: "resetOptions", GoMethod: "ResetOptions"},
 			_jsii_.MemberMethod{JsiiMethod: "resetOriginGroupId", GoMethod: "ResetOriginGroupId"},
@@ -12416,6 +12420,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "createdAt", GoGetter: "CreatedAt"},
 			_jsii_.MemberProperty{JsiiProperty: "dependsOn", GoGetter: "DependsOn"},
 			_jsii_.MemberProperty{JsiiProperty: "folderId", GoGetter: "FolderId"},
+			_jsii_.MemberProperty{JsiiProperty: "folderIdInput", GoGetter: "FolderIdInput"},
 			_jsii_.MemberProperty{JsiiProperty: "forEach", GoGetter: "ForEach"},
 			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
 			_jsii_.MemberProperty{JsiiProperty: "friendlyUniqueId", GoGetter: "FriendlyUniqueId"},
@@ -12448,6 +12453,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "rawOverrides", GoGetter: "RawOverrides"},
 			_jsii_.MemberMethod{JsiiMethod: "resetActive", GoMethod: "ResetActive"},
 			_jsii_.MemberMethod{JsiiMethod: "resetCname", GoMethod: "ResetCname"},
+			_jsii_.MemberMethod{JsiiMethod: "resetFolderId", GoMethod: "ResetFolderId"},
 			_jsii_.MemberMethod{JsiiMethod: "resetId", GoMethod: "ResetId"},
 			_jsii_.MemberMethod{JsiiMethod: "resetOptions", GoMethod: "ResetOptions"},
 			_jsii_.MemberMethod{JsiiMethod: "resetOriginGroupId", GoMethod: "ResetOriginGroupId"},
@@ -18507,6 +18513,126 @@ func init() {
 		"@cdktf/provider-yandex.DataYandexKubernetesNodeGroupInstanceTemplateNetworkInterface",
 		reflect.TypeOf((*DataYandexKubernetesNodeGroupInstanceTemplateNetworkInterface)(nil)).Elem(),
 	)
+	_jsii_.RegisterStruct(
+		"@cdktf/provider-yandex.DataYandexKubernetesNodeGroupInstanceTemplateNetworkInterfaceIpv4DnsRecords",
+		reflect.TypeOf((*DataYandexKubernetesNodeGroupInstanceTemplateNetworkInterfaceIpv4DnsRecords)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktf/provider-yandex.DataYandexKubernetesNodeGroupInstanceTemplateNetworkInterfaceIpv4DnsRecordsList",
+		reflect.TypeOf((*DataYandexKubernetesNodeGroupInstanceTemplateNetworkInterfaceIpv4DnsRecordsList)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "get", GoMethod: "Get"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
+		},
+		func() interface{} {
+			j := jsiiProxy_DataYandexKubernetesNodeGroupInstanceTemplateNetworkInterfaceIpv4DnsRecordsList{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			return &j
+		},
+	)
+	_jsii_.RegisterClass(
+		"@cdktf/provider-yandex.DataYandexKubernetesNodeGroupInstanceTemplateNetworkInterfaceIpv4DnsRecordsOutputReference",
+		reflect.TypeOf((*DataYandexKubernetesNodeGroupInstanceTemplateNetworkInterfaceIpv4DnsRecordsOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "dnsZoneId", GoGetter: "DnsZoneId"},
+			_jsii_.MemberProperty{JsiiProperty: "fqdn", GoGetter: "Fqdn"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "ptr", GoGetter: "Ptr"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+			_jsii_.MemberProperty{JsiiProperty: "ttl", GoGetter: "Ttl"},
+		},
+		func() interface{} {
+			j := jsiiProxy_DataYandexKubernetesNodeGroupInstanceTemplateNetworkInterfaceIpv4DnsRecordsOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
+		"@cdktf/provider-yandex.DataYandexKubernetesNodeGroupInstanceTemplateNetworkInterfaceIpv6DnsRecords",
+		reflect.TypeOf((*DataYandexKubernetesNodeGroupInstanceTemplateNetworkInterfaceIpv6DnsRecords)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktf/provider-yandex.DataYandexKubernetesNodeGroupInstanceTemplateNetworkInterfaceIpv6DnsRecordsList",
+		reflect.TypeOf((*DataYandexKubernetesNodeGroupInstanceTemplateNetworkInterfaceIpv6DnsRecordsList)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "get", GoMethod: "Get"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
+		},
+		func() interface{} {
+			j := jsiiProxy_DataYandexKubernetesNodeGroupInstanceTemplateNetworkInterfaceIpv6DnsRecordsList{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			return &j
+		},
+	)
+	_jsii_.RegisterClass(
+		"@cdktf/provider-yandex.DataYandexKubernetesNodeGroupInstanceTemplateNetworkInterfaceIpv6DnsRecordsOutputReference",
+		reflect.TypeOf((*DataYandexKubernetesNodeGroupInstanceTemplateNetworkInterfaceIpv6DnsRecordsOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "dnsZoneId", GoGetter: "DnsZoneId"},
+			_jsii_.MemberProperty{JsiiProperty: "fqdn", GoGetter: "Fqdn"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "ptr", GoGetter: "Ptr"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+			_jsii_.MemberProperty{JsiiProperty: "ttl", GoGetter: "Ttl"},
+		},
+		func() interface{} {
+			j := jsiiProxy_DataYandexKubernetesNodeGroupInstanceTemplateNetworkInterfaceIpv6DnsRecordsOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			return &j
+		},
+	)
 	_jsii_.RegisterClass(
 		"@cdktf/provider-yandex.DataYandexKubernetesNodeGroupInstanceTemplateNetworkInterfaceList",
 		reflect.TypeOf((*DataYandexKubernetesNodeGroupInstanceTemplateNetworkInterfaceList)(nil)).Elem(),
@@ -18549,7 +18675,9 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
 			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
 			_jsii_.MemberProperty{JsiiProperty: "ipv4", GoGetter: "Ipv4"},
+			_jsii_.MemberProperty{JsiiProperty: "ipv4DnsRecords", GoGetter: "Ipv4DnsRecords"},
 			_jsii_.MemberProperty{JsiiProperty: "ipv6", GoGetter: "Ipv6"},
+			_jsii_.MemberProperty{JsiiProperty: "ipv6DnsRecords", GoGetter: "Ipv6DnsRecords"},
 			_jsii_.MemberProperty{JsiiProperty: "nat", GoGetter: "Nat"},
 			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
 			_jsii_.MemberProperty{JsiiProperty: "securityGroupIds", GoGetter: "SecurityGroupIds"},
@@ -18587,7 +18715,9 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
 			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
 			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "labels", GoGetter: "Labels"},
 			_jsii_.MemberProperty{JsiiProperty: "metadata", GoGetter: "Metadata"},
+			_jsii_.MemberProperty{JsiiProperty: "name", GoGetter: "Name"},
 			_jsii_.MemberProperty{JsiiProperty: "nat", GoGetter: "Nat"},
 			_jsii_.MemberProperty{JsiiProperty: "networkAccelerationType", GoGetter: "NetworkAccelerationType"},
 			_jsii_.MemberProperty{JsiiProperty: "networkInterface", GoGetter: "NetworkInterface"},
@@ -22111,6 +22241,8 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
 			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
 			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "greenplumConfig", GoGetter: "GreenplumConfig"},
+			_jsii_.MemberProperty{JsiiProperty: "greenplumConfigInput", GoGetter: "GreenplumConfigInput"},
 			_jsii_.MemberProperty{JsiiProperty: "health", GoGetter: "Health"},
 			_jsii_.MemberProperty{JsiiProperty: "id", GoGetter: "Id"},
 			_jsii_.MemberProperty{JsiiProperty: "idInput", GoGetter: "IdInput"},
@@ -22125,13 +22257,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "networkId", GoGetter: "NetworkId"},
 			_jsii_.MemberProperty{JsiiProperty: "node", GoGetter: "Node"},
 			_jsii_.MemberMethod{JsiiMethod: "overrideLogicalId", GoMethod: "OverrideLogicalId"},
+			_jsii_.MemberProperty{JsiiProperty: "poolerConfig", GoGetter: "PoolerConfig"},
+			_jsii_.MemberProperty{JsiiProperty: "poolerConfigInput", GoGetter: "PoolerConfigInput"},
 			_jsii_.MemberProperty{JsiiProperty: "provider", GoGetter: "Provider"},
+			_jsii_.MemberMethod{JsiiMethod: "putPoolerConfig", GoMethod: "PutPoolerConfig"},
 			_jsii_.MemberProperty{JsiiProperty: "rawOverrides", GoGetter: "RawOverrides"},
 			_jsii_.MemberMethod{JsiiMethod: "resetClusterId", GoMethod: "ResetClusterId"},
 			_jsii_.MemberMethod{JsiiMethod: "resetFolderId", GoMethod: "ResetFolderId"},
+			_jsii_.MemberMethod{JsiiMethod: "resetGreenplumConfig", GoMethod: "ResetGreenplumConfig"},
 			_jsii_.MemberMethod{JsiiMethod: "resetId", GoMethod: "ResetId"},
 			_jsii_.MemberMethod{JsiiMethod: "resetName", GoMethod: "ResetName"},
 			_jsii_.MemberMethod{JsiiMethod: "resetOverrideLogicalId", GoMethod: "ResetOverrideLogicalId"},
+			_jsii_.MemberMethod{JsiiMethod: "resetPoolerConfig", GoMethod: "ResetPoolerConfig"},
 			_jsii_.MemberProperty{JsiiProperty: "securityGroupIds", GoGetter: "SecurityGroupIds"},
 			_jsii_.MemberProperty{JsiiProperty: "segmentHostCount", GoGetter: "SegmentHostCount"},
 			_jsii_.MemberProperty{JsiiProperty: "segmentHosts", GoGetter: "SegmentHosts"},
@@ -22446,6 +22583,51 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataYandexMdbGreenplumClusterMasterSubclusterResourcesOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
+		"@cdktf/provider-yandex.DataYandexMdbGreenplumClusterPoolerConfig",
+		reflect.TypeOf((*DataYandexMdbGreenplumClusterPoolerConfig)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktf/provider-yandex.DataYandexMdbGreenplumClusterPoolerConfigOutputReference",
+		reflect.TypeOf((*DataYandexMdbGreenplumClusterPoolerConfigOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "poolClientIdleTimeout", GoGetter: "PoolClientIdleTimeout"},
+			_jsii_.MemberProperty{JsiiProperty: "poolClientIdleTimeoutInput", GoGetter: "PoolClientIdleTimeoutInput"},
+			_jsii_.MemberProperty{JsiiProperty: "poolingMode", GoGetter: "PoolingMode"},
+			_jsii_.MemberProperty{JsiiProperty: "poolingModeInput", GoGetter: "PoolingModeInput"},
+			_jsii_.MemberProperty{JsiiProperty: "poolSize", GoGetter: "PoolSize"},
+			_jsii_.MemberProperty{JsiiProperty: "poolSizeInput", GoGetter: "PoolSizeInput"},
+			_jsii_.MemberMethod{JsiiMethod: "resetPoolClientIdleTimeout", GoMethod: "ResetPoolClientIdleTimeout"},
+			_jsii_.MemberMethod{JsiiMethod: "resetPoolingMode", GoMethod: "ResetPoolingMode"},
+			_jsii_.MemberMethod{JsiiMethod: "resetPoolSize", GoMethod: "ResetPoolSize"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+		},
+		func() interface{} {
+			j := jsiiProxy_DataYandexMdbGreenplumClusterPoolerConfigOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
 			return &j
 		},
@@ -26910,9 +27092,12 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "resetId", GoMethod: "ResetId"},
 			_jsii_.MemberMethod{JsiiMethod: "resetName", GoMethod: "ResetName"},
 			_jsii_.MemberMethod{JsiiMethod: "resetOverrideLogicalId", GoMethod: "ResetOverrideLogicalId"},
+			_jsii_.MemberMethod{JsiiMethod: "resetSqlcollation", GoMethod: "ResetSqlcollation"},
 			_jsii_.MemberMethod{JsiiMethod: "resetSqlserverConfig", GoMethod: "ResetSqlserverConfig"},
 			_jsii_.MemberProperty{JsiiProperty: "resources", GoGetter: "Resources"},
 			_jsii_.MemberProperty{JsiiProperty: "securityGroupIds", GoGetter: "SecurityGroupIds"},
+			_jsii_.MemberProperty{JsiiProperty: "sqlcollation", GoGetter: "Sqlcollation"},
+			_jsii_.MemberProperty{JsiiProperty: "sqlcollationInput", GoGetter: "SqlcollationInput"},
 			_jsii_.MemberProperty{JsiiProperty: "sqlserverConfig", GoGetter: "SqlserverConfig"},
 			_jsii_.MemberProperty{JsiiProperty: "sqlserverConfigInput", GoGetter: "SqlserverConfigInput"},
 			_jsii_.MemberProperty{JsiiProperty: "status", GoGetter: "Status"},
@@ -35950,6 +36135,142 @@ func init() {
 		"@cdktf/provider-yandex.KubernetesNodeGroupInstanceTemplateNetworkInterface",
 		reflect.TypeOf((*KubernetesNodeGroupInstanceTemplateNetworkInterface)(nil)).Elem(),
 	)
+	_jsii_.RegisterStruct(
+		"@cdktf/provider-yandex.KubernetesNodeGroupInstanceTemplateNetworkInterfaceIpv4DnsRecords",
+		reflect.TypeOf((*KubernetesNodeGroupInstanceTemplateNetworkInterfaceIpv4DnsRecords)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktf/provider-yandex.KubernetesNodeGroupInstanceTemplateNetworkInterfaceIpv4DnsRecordsList",
+		reflect.TypeOf((*KubernetesNodeGroupInstanceTemplateNetworkInterfaceIpv4DnsRecordsList)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "get", GoMethod: "Get"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
+		},
+		func() interface{} {
+			j := jsiiProxy_KubernetesNodeGroupInstanceTemplateNetworkInterfaceIpv4DnsRecordsList{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			return &j
+		},
+	)
+	_jsii_.RegisterClass(
+		"@cdktf/provider-yandex.KubernetesNodeGroupInstanceTemplateNetworkInterfaceIpv4DnsRecordsOutputReference",
+		reflect.TypeOf((*KubernetesNodeGroupInstanceTemplateNetworkInterfaceIpv4DnsRecordsOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "dnsZoneId", GoGetter: "DnsZoneId"},
+			_jsii_.MemberProperty{JsiiProperty: "dnsZoneIdInput", GoGetter: "DnsZoneIdInput"},
+			_jsii_.MemberProperty{JsiiProperty: "fqdn", GoGetter: "Fqdn"},
+			_jsii_.MemberProperty{JsiiProperty: "fqdnInput", GoGetter: "FqdnInput"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "ptr", GoGetter: "Ptr"},
+			_jsii_.MemberProperty{JsiiProperty: "ptrInput", GoGetter: "PtrInput"},
+			_jsii_.MemberMethod{JsiiMethod: "resetDnsZoneId", GoMethod: "ResetDnsZoneId"},
+			_jsii_.MemberMethod{JsiiMethod: "resetPtr", GoMethod: "ResetPtr"},
+			_jsii_.MemberMethod{JsiiMethod: "resetTtl", GoMethod: "ResetTtl"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+			_jsii_.MemberProperty{JsiiProperty: "ttl", GoGetter: "Ttl"},
+			_jsii_.MemberProperty{JsiiProperty: "ttlInput", GoGetter: "TtlInput"},
+		},
+		func() interface{} {
+			j := jsiiProxy_KubernetesNodeGroupInstanceTemplateNetworkInterfaceIpv4DnsRecordsOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
+		"@cdktf/provider-yandex.KubernetesNodeGroupInstanceTemplateNetworkInterfaceIpv6DnsRecords",
+		reflect.TypeOf((*KubernetesNodeGroupInstanceTemplateNetworkInterfaceIpv6DnsRecords)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktf/provider-yandex.KubernetesNodeGroupInstanceTemplateNetworkInterfaceIpv6DnsRecordsList",
+		reflect.TypeOf((*KubernetesNodeGroupInstanceTemplateNetworkInterfaceIpv6DnsRecordsList)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "get", GoMethod: "Get"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
+		},
+		func() interface{} {
+			j := jsiiProxy_KubernetesNodeGroupInstanceTemplateNetworkInterfaceIpv6DnsRecordsList{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			return &j
+		},
+	)
+	_jsii_.RegisterClass(
+		"@cdktf/provider-yandex.KubernetesNodeGroupInstanceTemplateNetworkInterfaceIpv6DnsRecordsOutputReference",
+		reflect.TypeOf((*KubernetesNodeGroupInstanceTemplateNetworkInterfaceIpv6DnsRecordsOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "dnsZoneId", GoGetter: "DnsZoneId"},
+			_jsii_.MemberProperty{JsiiProperty: "dnsZoneIdInput", GoGetter: "DnsZoneIdInput"},
+			_jsii_.MemberProperty{JsiiProperty: "fqdn", GoGetter: "Fqdn"},
+			_jsii_.MemberProperty{JsiiProperty: "fqdnInput", GoGetter: "FqdnInput"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "ptr", GoGetter: "Ptr"},
+			_jsii_.MemberProperty{JsiiProperty: "ptrInput", GoGetter: "PtrInput"},
+			_jsii_.MemberMethod{JsiiMethod: "resetDnsZoneId", GoMethod: "ResetDnsZoneId"},
+			_jsii_.MemberMethod{JsiiMethod: "resetPtr", GoMethod: "ResetPtr"},
+			_jsii_.MemberMethod{JsiiMethod: "resetTtl", GoMethod: "ResetTtl"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+			_jsii_.MemberProperty{JsiiProperty: "ttl", GoGetter: "Ttl"},
+			_jsii_.MemberProperty{JsiiProperty: "ttlInput", GoGetter: "TtlInput"},
+		},
+		func() interface{} {
+			j := jsiiProxy_KubernetesNodeGroupInstanceTemplateNetworkInterfaceIpv6DnsRecordsOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			return &j
+		},
+	)
 	_jsii_.RegisterClass(
 		"@cdktf/provider-yandex.KubernetesNodeGroupInstanceTemplateNetworkInterfaceList",
 		reflect.TypeOf((*KubernetesNodeGroupInstanceTemplateNetworkInterfaceList)(nil)).Elem(),
@@ -35993,13 +36314,21 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
 			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
 			_jsii_.MemberProperty{JsiiProperty: "ipv4", GoGetter: "Ipv4"},
+			_jsii_.MemberProperty{JsiiProperty: "ipv4DnsRecords", GoGetter: "Ipv4DnsRecords"},
+			_jsii_.MemberProperty{JsiiProperty: "ipv4DnsRecordsInput", GoGetter: "Ipv4DnsRecordsInput"},
 			_jsii_.MemberProperty{JsiiProperty: "ipv4Input", GoGetter: "Ipv4Input"},
 			_jsii_.MemberProperty{JsiiProperty: "ipv6", GoGetter: "Ipv6"},
+			_jsii_.MemberProperty{JsiiProperty: "ipv6DnsRecords", GoGetter: "Ipv6DnsRecords"},
+			_jsii_.MemberProperty{JsiiProperty: "ipv6DnsRecordsInput", GoGetter: "Ipv6DnsRecordsInput"},
 			_jsii_.MemberProperty{JsiiProperty: "ipv6Input", GoGetter: "Ipv6Input"},
 			_jsii_.MemberProperty{JsiiProperty: "nat", GoGetter: "Nat"},
 			_jsii_.MemberProperty{JsiiProperty: "natInput", GoGetter: "NatInput"},
+			_jsii_.MemberMethod{JsiiMethod: "putIpv4DnsRecords", GoMethod: "PutIpv4DnsRecords"},
+			_jsii_.MemberMethod{JsiiMethod: "putIpv6DnsRecords", GoMethod: "PutIpv6DnsRecords"},
 			_jsii_.MemberMethod{JsiiMethod: "resetIpv4", GoMethod: "ResetIpv4"},
+			_jsii_.MemberMethod{JsiiMethod: "resetIpv4DnsRecords", GoMethod: "ResetIpv4DnsRecords"},
 			_jsii_.MemberMethod{JsiiMethod: "resetIpv6", GoMethod: "ResetIpv6"},
+			_jsii_.MemberMethod{JsiiMethod: "resetIpv6DnsRecords", GoMethod: "ResetIpv6DnsRecords"},
 			_jsii_.MemberMethod{JsiiMethod: "resetNat", GoMethod: "ResetNat"},
 			_jsii_.MemberMethod{JsiiMethod: "resetSecurityGroupIds", GoMethod: "ResetSecurityGroupIds"},
 			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
@@ -36042,8 +36371,12 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
 			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
 			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "labels", GoGetter: "Labels"},
+			_jsii_.MemberProperty{JsiiProperty: "labelsInput", GoGetter: "LabelsInput"},
 			_jsii_.MemberProperty{JsiiProperty: "metadata", GoGetter: "Metadata"},
 			_jsii_.MemberProperty{JsiiProperty: "metadataInput", GoGetter: "MetadataInput"},
+			_jsii_.MemberProperty{JsiiProperty: "name", GoGetter: "Name"},
+			_jsii_.MemberProperty{JsiiProperty: "nameInput", GoGetter: "NameInput"},
 			_jsii_.MemberProperty{JsiiProperty: "nat", GoGetter: "Nat"},
 			_jsii_.MemberProperty{JsiiProperty: "natInput", GoGetter: "NatInput"},
 			_jsii_.MemberProperty{JsiiProperty: "networkAccelerationType", GoGetter: "NetworkAccelerationType"},
@@ -36062,7 +36395,9 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "putSchedulingPolicy", GoMethod: "PutSchedulingPolicy"},
 			_jsii_.MemberMethod{JsiiMethod: "resetBootDisk", GoMethod: "ResetBootDisk"},
 			_jsii_.MemberMethod{JsiiMethod: "resetContainerRuntime", GoMethod: "ResetContainerRuntime"},
+			_jsii_.MemberMethod{JsiiMethod: "resetLabels", GoMethod: "ResetLabels"},
 			_jsii_.MemberMethod{JsiiMethod: "resetMetadata", GoMethod: "ResetMetadata"},
+			_jsii_.MemberMethod{JsiiMethod: "resetName", GoMethod: "ResetName"},
 			_jsii_.MemberMethod{JsiiMethod: "resetNat", GoMethod: "ResetNat"},
 			_jsii_.MemberMethod{JsiiMethod: "resetNetworkAccelerationType", GoMethod: "ResetNetworkAccelerationType"},
 			_jsii_.MemberMethod{JsiiMethod: "resetNetworkInterface", GoMethod: "ResetNetworkInterface"},
@@ -39889,6 +40224,8 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
 			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
 			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "greenplumConfig", GoGetter: "GreenplumConfig"},
+			_jsii_.MemberProperty{JsiiProperty: "greenplumConfigInput", GoGetter: "GreenplumConfigInput"},
 			_jsii_.MemberProperty{JsiiProperty: "health", GoGetter: "Health"},
 			_jsii_.MemberProperty{JsiiProperty: "id", GoGetter: "Id"},
 			_jsii_.MemberProperty{JsiiProperty: "idInput", GoGetter: "IdInput"},
@@ -39907,11 +40244,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "networkIdInput", GoGetter: "NetworkIdInput"},
 			_jsii_.MemberProperty{JsiiProperty: "node", GoGetter: "Node"},
 			_jsii_.MemberMethod{JsiiMethod: "overrideLogicalId", GoMethod: "OverrideLogicalId"},
+			_jsii_.MemberProperty{JsiiProperty: "poolerConfig", GoGetter: "PoolerConfig"},
+			_jsii_.MemberProperty{JsiiProperty: "poolerConfigInput", GoGetter: "PoolerConfigInput"},
 			_jsii_.MemberProperty{JsiiProperty: "provider", GoGetter: "Provider"},
 			_jsii_.MemberProperty{JsiiProperty: "provisioners", GoGetter: "Provisioners"},
 			_jsii_.MemberMethod{JsiiMethod: "putAccess", GoMethod: "PutAccess"},
 			_jsii_.MemberMethod{JsiiMethod: "putBackupWindowStart", GoMethod: "PutBackupWindowStart"},
 			_jsii_.MemberMethod{JsiiMethod: "putMasterSubcluster", GoMethod: "PutMasterSubcluster"},
+			_jsii_.MemberMethod{JsiiMethod: "putPoolerConfig", GoMethod: "PutPoolerConfig"},
 			_jsii_.MemberMethod{JsiiMethod: "putSegmentSubcluster", GoMethod: "PutSegmentSubcluster"},
 			_jsii_.MemberMethod{JsiiMethod: "putTimeouts", GoMethod: "PutTimeouts"},
 			_jsii_.MemberProperty{JsiiProperty: "rawOverrides", GoGetter: "RawOverrides"},
@@ -39920,9 +40260,11 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "resetDeletionProtection", GoMethod: "ResetDeletionProtection"},
 			_jsii_.MemberMethod{JsiiMethod: "resetDescription", GoMethod: "ResetDescription"},
 			_jsii_.MemberMethod{JsiiMethod: "resetFolderId", GoMethod: "ResetFolderId"},
+			_jsii_.MemberMethod{JsiiMethod: "resetGreenplumConfig", GoMethod: "ResetGreenplumConfig"},
 			_jsii_.MemberMethod{JsiiMethod: "resetId", GoMethod: "ResetId"},
 			_jsii_.MemberMethod{JsiiMethod: "resetLabels", GoMethod: "ResetLabels"},
 			_jsii_.MemberMethod{JsiiMethod: "resetOverrideLogicalId", GoMethod: "ResetOverrideLogicalId"},
+			_jsii_.MemberMethod{JsiiMethod: "resetPoolerConfig", GoMethod: "ResetPoolerConfig"},
 			_jsii_.MemberMethod{JsiiMethod: "resetSecurityGroupIds", GoMethod: "ResetSecurityGroupIds"},
 			_jsii_.MemberMethod{JsiiMethod: "resetTimeouts", GoMethod: "ResetTimeouts"},
 			_jsii_.MemberProperty{JsiiProperty: "securityGroupIds", GoGetter: "SecurityGroupIds"},
@@ -40184,6 +40526,51 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_MdbGreenplumClusterMasterSubclusterResourcesOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
+		"@cdktf/provider-yandex.MdbGreenplumClusterPoolerConfig",
+		reflect.TypeOf((*MdbGreenplumClusterPoolerConfig)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktf/provider-yandex.MdbGreenplumClusterPoolerConfigOutputReference",
+		reflect.TypeOf((*MdbGreenplumClusterPoolerConfigOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "poolClientIdleTimeout", GoGetter: "PoolClientIdleTimeout"},
+			_jsii_.MemberProperty{JsiiProperty: "poolClientIdleTimeoutInput", GoGetter: "PoolClientIdleTimeoutInput"},
+			_jsii_.MemberProperty{JsiiProperty: "poolingMode", GoGetter: "PoolingMode"},
+			_jsii_.MemberProperty{JsiiProperty: "poolingModeInput", GoGetter: "PoolingModeInput"},
+			_jsii_.MemberProperty{JsiiProperty: "poolSize", GoGetter: "PoolSize"},
+			_jsii_.MemberProperty{JsiiProperty: "poolSizeInput", GoGetter: "PoolSizeInput"},
+			_jsii_.MemberMethod{JsiiMethod: "resetPoolClientIdleTimeout", GoMethod: "ResetPoolClientIdleTimeout"},
+			_jsii_.MemberMethod{JsiiMethod: "resetPoolingMode", GoMethod: "ResetPoolingMode"},
+			_jsii_.MemberMethod{JsiiMethod: "resetPoolSize", GoMethod: "ResetPoolSize"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+		},
+		func() interface{} {
+			j := jsiiProxy_MdbGreenplumClusterPoolerConfigOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
 			return &j
 		},
@@ -45480,12 +45867,15 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "resetLabels", GoMethod: "ResetLabels"},
 			_jsii_.MemberMethod{JsiiMethod: "resetOverrideLogicalId", GoMethod: "ResetOverrideLogicalId"},
 			_jsii_.MemberMethod{JsiiMethod: "resetSecurityGroupIds", GoMethod: "ResetSecurityGroupIds"},
+			_jsii_.MemberMethod{JsiiMethod: "resetSqlcollation", GoMethod: "ResetSqlcollation"},
 			_jsii_.MemberMethod{JsiiMethod: "resetSqlserverConfig", GoMethod: "ResetSqlserverConfig"},
 			_jsii_.MemberMethod{JsiiMethod: "resetTimeouts", GoMethod: "ResetTimeouts"},
 			_jsii_.MemberProperty{JsiiProperty: "resources", GoGetter: "Resources"},
 			_jsii_.MemberProperty{JsiiProperty: "resourcesInput", GoGetter: "ResourcesInput"},
 			_jsii_.MemberProperty{JsiiProperty: "securityGroupIds", GoGetter: "SecurityGroupIds"},
 			_jsii_.MemberProperty{JsiiProperty: "securityGroupIdsInput", GoGetter: "SecurityGroupIdsInput"},
+			_jsii_.MemberProperty{JsiiProperty: "sqlcollation", GoGetter: "Sqlcollation"},
+			_jsii_.MemberProperty{JsiiProperty: "sqlcollationInput", GoGetter: "SqlcollationInput"},
 			_jsii_.MemberProperty{JsiiProperty: "sqlserverConfig", GoGetter: "SqlserverConfig"},
 			_jsii_.MemberProperty{JsiiProperty: "sqlserverConfigInput", GoGetter: "SqlserverConfigInput"},
 			_jsii_.MemberProperty{JsiiProperty: "status", GoGetter: "Status"},
@@ -46891,6 +47281,66 @@ func init() {
 	_jsii_.RegisterStruct(
 		"@cdktf/provider-yandex.ServerlessContainerConfig",
 		reflect.TypeOf((*ServerlessContainerConfig)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktf/provider-yandex.ServerlessContainerIamBinding",
+		reflect.TypeOf((*ServerlessContainerIamBinding)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
+			_jsii_.MemberProperty{JsiiProperty: "cdktfStack", GoGetter: "CdktfStack"},
+			_jsii_.MemberProperty{JsiiProperty: "connection", GoGetter: "Connection"},
+			_jsii_.MemberProperty{JsiiProperty: "constructNodeMetadata", GoGetter: "ConstructNodeMetadata"},
+			_jsii_.MemberProperty{JsiiProperty: "containerId", GoGetter: "ContainerId"},
+			_jsii_.MemberProperty{JsiiProperty: "containerIdInput", GoGetter: "ContainerIdInput"},
+			_jsii_.MemberProperty{JsiiProperty: "count", GoGetter: "Count"},
+			_jsii_.MemberProperty{JsiiProperty: "dependsOn", GoGetter: "DependsOn"},
+			_jsii_.MemberProperty{JsiiProperty: "forEach", GoGetter: "ForEach"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberProperty{JsiiProperty: "friendlyUniqueId", GoGetter: "FriendlyUniqueId"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "id", GoGetter: "Id"},
+			_jsii_.MemberProperty{JsiiProperty: "idInput", GoGetter: "IdInput"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "lifecycle", GoGetter: "Lifecycle"},
+			_jsii_.MemberProperty{JsiiProperty: "members", GoGetter: "Members"},
+			_jsii_.MemberProperty{JsiiProperty: "membersInput", GoGetter: "MembersInput"},
+			_jsii_.MemberProperty{JsiiProperty: "node", GoGetter: "Node"},
+			_jsii_.MemberMethod{JsiiMethod: "overrideLogicalId", GoMethod: "OverrideLogicalId"},
+			_jsii_.MemberProperty{JsiiProperty: "provider", GoGetter: "Provider"},
+			_jsii_.MemberProperty{JsiiProperty: "provisioners", GoGetter: "Provisioners"},
+			_jsii_.MemberProperty{JsiiProperty: "rawOverrides", GoGetter: "RawOverrides"},
+			_jsii_.MemberMethod{JsiiMethod: "resetId", GoMethod: "ResetId"},
+			_jsii_.MemberMethod{JsiiMethod: "resetOverrideLogicalId", GoMethod: "ResetOverrideLogicalId"},
+			_jsii_.MemberMethod{JsiiMethod: "resetSleepAfter", GoMethod: "ResetSleepAfter"},
+			_jsii_.MemberProperty{JsiiProperty: "role", GoGetter: "Role"},
+			_jsii_.MemberProperty{JsiiProperty: "roleInput", GoGetter: "RoleInput"},
+			_jsii_.MemberProperty{JsiiProperty: "sleepAfter", GoGetter: "SleepAfter"},
+			_jsii_.MemberProperty{JsiiProperty: "sleepAfterInput", GoGetter: "SleepAfterInput"},
+			_jsii_.MemberMethod{JsiiMethod: "synthesizeAttributes", GoMethod: "SynthesizeAttributes"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformGeneratorMetadata", GoGetter: "TerraformGeneratorMetadata"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformMetaArguments", GoGetter: "TerraformMetaArguments"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResourceType", GoGetter: "TerraformResourceType"},
+			_jsii_.MemberMethod{JsiiMethod: "toMetadata", GoMethod: "ToMetadata"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
+		},
+		func() interface{} {
+			j := jsiiProxy_ServerlessContainerIamBinding{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
+		"@cdktf/provider-yandex.ServerlessContainerIamBindingConfig",
+		reflect.TypeOf((*ServerlessContainerIamBindingConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
 		"@cdktf/provider-yandex.ServerlessContainerImage",
@@ -49751,6 +50201,66 @@ func init() {
 			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
 			return &j
 		},
+	)
+	_jsii_.RegisterClass(
+		"@cdktf/provider-yandex.YdbDatabaseIamBinding",
+		reflect.TypeOf((*YdbDatabaseIamBinding)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
+			_jsii_.MemberProperty{JsiiProperty: "cdktfStack", GoGetter: "CdktfStack"},
+			_jsii_.MemberProperty{JsiiProperty: "connection", GoGetter: "Connection"},
+			_jsii_.MemberProperty{JsiiProperty: "constructNodeMetadata", GoGetter: "ConstructNodeMetadata"},
+			_jsii_.MemberProperty{JsiiProperty: "count", GoGetter: "Count"},
+			_jsii_.MemberProperty{JsiiProperty: "databaseId", GoGetter: "DatabaseId"},
+			_jsii_.MemberProperty{JsiiProperty: "databaseIdInput", GoGetter: "DatabaseIdInput"},
+			_jsii_.MemberProperty{JsiiProperty: "dependsOn", GoGetter: "DependsOn"},
+			_jsii_.MemberProperty{JsiiProperty: "forEach", GoGetter: "ForEach"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberProperty{JsiiProperty: "friendlyUniqueId", GoGetter: "FriendlyUniqueId"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "id", GoGetter: "Id"},
+			_jsii_.MemberProperty{JsiiProperty: "idInput", GoGetter: "IdInput"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "lifecycle", GoGetter: "Lifecycle"},
+			_jsii_.MemberProperty{JsiiProperty: "members", GoGetter: "Members"},
+			_jsii_.MemberProperty{JsiiProperty: "membersInput", GoGetter: "MembersInput"},
+			_jsii_.MemberProperty{JsiiProperty: "node", GoGetter: "Node"},
+			_jsii_.MemberMethod{JsiiMethod: "overrideLogicalId", GoMethod: "OverrideLogicalId"},
+			_jsii_.MemberProperty{JsiiProperty: "provider", GoGetter: "Provider"},
+			_jsii_.MemberProperty{JsiiProperty: "provisioners", GoGetter: "Provisioners"},
+			_jsii_.MemberProperty{JsiiProperty: "rawOverrides", GoGetter: "RawOverrides"},
+			_jsii_.MemberMethod{JsiiMethod: "resetId", GoMethod: "ResetId"},
+			_jsii_.MemberMethod{JsiiMethod: "resetOverrideLogicalId", GoMethod: "ResetOverrideLogicalId"},
+			_jsii_.MemberMethod{JsiiMethod: "resetSleepAfter", GoMethod: "ResetSleepAfter"},
+			_jsii_.MemberProperty{JsiiProperty: "role", GoGetter: "Role"},
+			_jsii_.MemberProperty{JsiiProperty: "roleInput", GoGetter: "RoleInput"},
+			_jsii_.MemberProperty{JsiiProperty: "sleepAfter", GoGetter: "SleepAfter"},
+			_jsii_.MemberProperty{JsiiProperty: "sleepAfterInput", GoGetter: "SleepAfterInput"},
+			_jsii_.MemberMethod{JsiiMethod: "synthesizeAttributes", GoMethod: "SynthesizeAttributes"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformGeneratorMetadata", GoGetter: "TerraformGeneratorMetadata"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformMetaArguments", GoGetter: "TerraformMetaArguments"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResourceType", GoGetter: "TerraformResourceType"},
+			_jsii_.MemberMethod{JsiiMethod: "toMetadata", GoMethod: "ToMetadata"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
+		},
+		func() interface{} {
+			j := jsiiProxy_YdbDatabaseIamBinding{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
+		"@cdktf/provider-yandex.YdbDatabaseIamBindingConfig",
+		reflect.TypeOf((*YdbDatabaseIamBindingConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
 		"@cdktf/provider-yandex.YdbDatabaseServerless",
