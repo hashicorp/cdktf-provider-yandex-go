@@ -1,0 +1,476 @@
+// Prebuilt yandex Provider for Terraform CDK (cdktf)
+package yandex
+
+import (
+	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
+	_init_ "github.com/hashicorp/cdktf-provider-yandex-go/yandex/v2/jsii"
+
+	"github.com/hashicorp/cdktf-provider-yandex-go/yandex/v2/internal"
+	"github.com/hashicorp/terraform-cdk-go/cdktf"
+)
+
+type VpcRouteTableStaticRouteOutputReference interface {
+	cdktf.ComplexObject
+	// the index of the complex object in a list.
+	// Experimental.
+	ComplexObjectIndex() interface{}
+	// Experimental.
+	SetComplexObjectIndex(val interface{})
+	// set to true if this item is from inside a set and needs tolist() for accessing it set to "0" for single list items.
+	// Experimental.
+	ComplexObjectIsFromSet() *bool
+	// Experimental.
+	SetComplexObjectIsFromSet(val *bool)
+	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
+	//
+	// If this returns an empty array the stack will not be attached.
+	// Experimental.
+	CreationStack() *[]*string
+	DestinationPrefix() *string
+	SetDestinationPrefix(val *string)
+	DestinationPrefixInput() *string
+	// Experimental.
+	Fqn() *string
+	InternalValue() interface{}
+	SetInternalValue(val interface{})
+	NextHopAddress() *string
+	SetNextHopAddress(val *string)
+	NextHopAddressInput() *string
+	// Experimental.
+	TerraformAttribute() *string
+	// Experimental.
+	SetTerraformAttribute(val *string)
+	// Experimental.
+	TerraformResource() cdktf.IInterpolatingParent
+	// Experimental.
+	SetTerraformResource(val cdktf.IInterpolatingParent)
+	// Experimental.
+	ComputeFqn() *string
+	// Experimental.
+	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
+	// Experimental.
+	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	// Experimental.
+	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
+	// Experimental.
+	GetListAttribute(terraformAttribute *string) *[]*string
+	// Experimental.
+	GetNumberAttribute(terraformAttribute *string) *float64
+	// Experimental.
+	GetNumberListAttribute(terraformAttribute *string) *[]*float64
+	// Experimental.
+	GetNumberMapAttribute(terraformAttribute *string) *map[string]*float64
+	// Experimental.
+	GetStringAttribute(terraformAttribute *string) *string
+	// Experimental.
+	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
+	// Experimental.
+	InterpolationAsList() cdktf.IResolvable
+	// Experimental.
+	InterpolationForAttribute(property *string) cdktf.IResolvable
+	ResetDestinationPrefix()
+	ResetNextHopAddress()
+	// Produce the Token's value at resolution time.
+	// Experimental.
+	Resolve(_context cdktf.IResolveContext) interface{}
+	// Return a string representation of this resolvable object.
+	//
+	// Returns a reversible string representation.
+	// Experimental.
+	ToString() *string
+}
+
+// The jsii proxy struct for VpcRouteTableStaticRouteOutputReference
+type jsiiProxy_VpcRouteTableStaticRouteOutputReference struct {
+	internal.Type__cdktfComplexObject
+}
+
+func (j *jsiiProxy_VpcRouteTableStaticRouteOutputReference) ComplexObjectIndex() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"complexObjectIndex",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_VpcRouteTableStaticRouteOutputReference) ComplexObjectIsFromSet() *bool {
+	var returns *bool
+	_jsii_.Get(
+		j,
+		"complexObjectIsFromSet",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_VpcRouteTableStaticRouteOutputReference) CreationStack() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"creationStack",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_VpcRouteTableStaticRouteOutputReference) DestinationPrefix() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"destinationPrefix",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_VpcRouteTableStaticRouteOutputReference) DestinationPrefixInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"destinationPrefixInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_VpcRouteTableStaticRouteOutputReference) Fqn() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"fqn",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_VpcRouteTableStaticRouteOutputReference) InternalValue() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_VpcRouteTableStaticRouteOutputReference) NextHopAddress() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"nextHopAddress",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_VpcRouteTableStaticRouteOutputReference) NextHopAddressInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"nextHopAddressInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_VpcRouteTableStaticRouteOutputReference) TerraformAttribute() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"terraformAttribute",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_VpcRouteTableStaticRouteOutputReference) TerraformResource() cdktf.IInterpolatingParent {
+	var returns cdktf.IInterpolatingParent
+	_jsii_.Get(
+		j,
+		"terraformResource",
+		&returns,
+	)
+	return returns
+}
+
+
+func NewVpcRouteTableStaticRouteOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) VpcRouteTableStaticRouteOutputReference {
+	_init_.Initialize()
+
+	j := jsiiProxy_VpcRouteTableStaticRouteOutputReference{}
+
+	_jsii_.Create(
+		"@cdktf/provider-yandex.VpcRouteTableStaticRouteOutputReference",
+		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
+		&j,
+	)
+
+	return &j
+}
+
+func NewVpcRouteTableStaticRouteOutputReference_Override(v VpcRouteTableStaticRouteOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+	_init_.Initialize()
+
+	_jsii_.Create(
+		"@cdktf/provider-yandex.VpcRouteTableStaticRouteOutputReference",
+		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
+		v,
+	)
+}
+
+func (j *jsiiProxy_VpcRouteTableStaticRouteOutputReference) SetComplexObjectIndex(val interface{}) {
+	_jsii_.Set(
+		j,
+		"complexObjectIndex",
+		val,
+	)
+}
+
+func (j *jsiiProxy_VpcRouteTableStaticRouteOutputReference) SetComplexObjectIsFromSet(val *bool) {
+	_jsii_.Set(
+		j,
+		"complexObjectIsFromSet",
+		val,
+	)
+}
+
+func (j *jsiiProxy_VpcRouteTableStaticRouteOutputReference) SetDestinationPrefix(val *string) {
+	_jsii_.Set(
+		j,
+		"destinationPrefix",
+		val,
+	)
+}
+
+func (j *jsiiProxy_VpcRouteTableStaticRouteOutputReference) SetInternalValue(val interface{}) {
+	_jsii_.Set(
+		j,
+		"internalValue",
+		val,
+	)
+}
+
+func (j *jsiiProxy_VpcRouteTableStaticRouteOutputReference) SetNextHopAddress(val *string) {
+	_jsii_.Set(
+		j,
+		"nextHopAddress",
+		val,
+	)
+}
+
+func (j *jsiiProxy_VpcRouteTableStaticRouteOutputReference) SetTerraformAttribute(val *string) {
+	_jsii_.Set(
+		j,
+		"terraformAttribute",
+		val,
+	)
+}
+
+func (j *jsiiProxy_VpcRouteTableStaticRouteOutputReference) SetTerraformResource(val cdktf.IInterpolatingParent) {
+	_jsii_.Set(
+		j,
+		"terraformResource",
+		val,
+	)
+}
+
+func (v *jsiiProxy_VpcRouteTableStaticRouteOutputReference) ComputeFqn() *string {
+	var returns *string
+
+	_jsii_.Invoke(
+		v,
+		"computeFqn",
+		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (v *jsiiProxy_VpcRouteTableStaticRouteOutputReference) GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{} {
+	var returns *map[string]interface{}
+
+	_jsii_.Invoke(
+		v,
+		"getAnyMapAttribute",
+		[]interface{}{terraformAttribute},
+		&returns,
+	)
+
+	return returns
+}
+
+func (v *jsiiProxy_VpcRouteTableStaticRouteOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+	var returns cdktf.IResolvable
+
+	_jsii_.Invoke(
+		v,
+		"getBooleanAttribute",
+		[]interface{}{terraformAttribute},
+		&returns,
+	)
+
+	return returns
+}
+
+func (v *jsiiProxy_VpcRouteTableStaticRouteOutputReference) GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool {
+	var returns *map[string]*bool
+
+	_jsii_.Invoke(
+		v,
+		"getBooleanMapAttribute",
+		[]interface{}{terraformAttribute},
+		&returns,
+	)
+
+	return returns
+}
+
+func (v *jsiiProxy_VpcRouteTableStaticRouteOutputReference) GetListAttribute(terraformAttribute *string) *[]*string {
+	var returns *[]*string
+
+	_jsii_.Invoke(
+		v,
+		"getListAttribute",
+		[]interface{}{terraformAttribute},
+		&returns,
+	)
+
+	return returns
+}
+
+func (v *jsiiProxy_VpcRouteTableStaticRouteOutputReference) GetNumberAttribute(terraformAttribute *string) *float64 {
+	var returns *float64
+
+	_jsii_.Invoke(
+		v,
+		"getNumberAttribute",
+		[]interface{}{terraformAttribute},
+		&returns,
+	)
+
+	return returns
+}
+
+func (v *jsiiProxy_VpcRouteTableStaticRouteOutputReference) GetNumberListAttribute(terraformAttribute *string) *[]*float64 {
+	var returns *[]*float64
+
+	_jsii_.Invoke(
+		v,
+		"getNumberListAttribute",
+		[]interface{}{terraformAttribute},
+		&returns,
+	)
+
+	return returns
+}
+
+func (v *jsiiProxy_VpcRouteTableStaticRouteOutputReference) GetNumberMapAttribute(terraformAttribute *string) *map[string]*float64 {
+	var returns *map[string]*float64
+
+	_jsii_.Invoke(
+		v,
+		"getNumberMapAttribute",
+		[]interface{}{terraformAttribute},
+		&returns,
+	)
+
+	return returns
+}
+
+func (v *jsiiProxy_VpcRouteTableStaticRouteOutputReference) GetStringAttribute(terraformAttribute *string) *string {
+	var returns *string
+
+	_jsii_.Invoke(
+		v,
+		"getStringAttribute",
+		[]interface{}{terraformAttribute},
+		&returns,
+	)
+
+	return returns
+}
+
+func (v *jsiiProxy_VpcRouteTableStaticRouteOutputReference) GetStringMapAttribute(terraformAttribute *string) *map[string]*string {
+	var returns *map[string]*string
+
+	_jsii_.Invoke(
+		v,
+		"getStringMapAttribute",
+		[]interface{}{terraformAttribute},
+		&returns,
+	)
+
+	return returns
+}
+
+func (v *jsiiProxy_VpcRouteTableStaticRouteOutputReference) InterpolationAsList() cdktf.IResolvable {
+	var returns cdktf.IResolvable
+
+	_jsii_.Invoke(
+		v,
+		"interpolationAsList",
+		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (v *jsiiProxy_VpcRouteTableStaticRouteOutputReference) InterpolationForAttribute(property *string) cdktf.IResolvable {
+	var returns cdktf.IResolvable
+
+	_jsii_.Invoke(
+		v,
+		"interpolationForAttribute",
+		[]interface{}{property},
+		&returns,
+	)
+
+	return returns
+}
+
+func (v *jsiiProxy_VpcRouteTableStaticRouteOutputReference) ResetDestinationPrefix() {
+	_jsii_.InvokeVoid(
+		v,
+		"resetDestinationPrefix",
+		nil, // no parameters
+	)
+}
+
+func (v *jsiiProxy_VpcRouteTableStaticRouteOutputReference) ResetNextHopAddress() {
+	_jsii_.InvokeVoid(
+		v,
+		"resetNextHopAddress",
+		nil, // no parameters
+	)
+}
+
+func (v *jsiiProxy_VpcRouteTableStaticRouteOutputReference) Resolve(_context cdktf.IResolveContext) interface{} {
+	var returns interface{}
+
+	_jsii_.Invoke(
+		v,
+		"resolve",
+		[]interface{}{_context},
+		&returns,
+	)
+
+	return returns
+}
+
+func (v *jsiiProxy_VpcRouteTableStaticRouteOutputReference) ToString() *string {
+	var returns *string
+
+	_jsii_.Invoke(
+		v,
+		"toString",
+		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
